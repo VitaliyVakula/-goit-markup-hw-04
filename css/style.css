@@ -145,16 +145,6 @@ img {
 
 /* site nav */
 
-.nav-container {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.auth-nav-container {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .site-nav .item + .item {
   margin-left: 50px;
 }
@@ -172,10 +162,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-.site-nav .list {
-  display: block;
-}
-
 .site-nav a {
   color: var(--primary-text-color);
 }
@@ -185,12 +171,11 @@ img {
 }
 
 .auth-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+
   display: flex;
   margin-left: auto;
-}
-
-.auth-nav .item + .item {
-  margin-left: 50px;
 }
 
 .auth-nav a {
@@ -199,6 +184,23 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.auth-nav-item {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.auth-nav-item:last-child {
+  margin-right: 0px;
+}
+
+.auth-nav a:hover {
+  color: var(--acccent-color);
+}
+
+.auth-nav-icon {
+  margin-right: 10px;
 }
 
 /* Hero */
@@ -254,7 +256,6 @@ img {
 .features {
   display: flex;
   flex-wrap: wrap;
-  color: var(--title-text-color);
 }
 
 .features-item {
@@ -283,6 +284,7 @@ img {
 
   margin-top: 0;
   margin-bottom: 10px;
+  color: var(--title-text-color);
 }
 
 /* Work */
