@@ -396,71 +396,41 @@ img {
   height: 44px;
 }
 
-/*
-.team {
-  margin-right: 30px;
-  background: var();
-  display: block;
-  flex-wrap: wrap;
+/* Clients */
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.clients-list {
   display: flex;
-  align-items: center;  
+  flex-wrap: wrap;
 }
 
-.dream-team {
+.clients-item {
   margin-right: 30px;
+  margin-bottom: 30px;
+  width: 170px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
-.dream-team:nth-child(4) {
+.clients-item:last-child {
   margin-right: 0;
 }
 
-.team-title {
-  color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 10px;
+.clients-link-links {
 }
-
-.team-text {
-  color: var(--title-text-color);
-
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  margin-bottom: 30px;
-}
-
-
-
-.card {
-  box-sizing: border-box;
-  display: block;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  overflow: hidden;
-}
-
-.card-team {
-  
-}
-
-.card-image {
-  
-}
-
-.social-link 
-}
-
-.social-link-icon {
-  display: flex; 
-}
-*/
 
 /* Button */
 
