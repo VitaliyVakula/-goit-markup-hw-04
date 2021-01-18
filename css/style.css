@@ -16,6 +16,7 @@
   --primary-white-color: #ffffff;
   --primary-bt-color: #f5f4fa;
   --primary-bg-hero-color: #2f303a;
+  --primary-icon-color: #afb1b8;
 }
 
 body {
@@ -380,20 +381,35 @@ img {
 .social-link {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .social-link-item {
   margin-right: 10px;
+  padding: 0;
+  border: none;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--primary-icon-color: #AFB1B8;);
 }
 
 .social-link-item:last-child {
   margin: 0;
 }
 
+/*.social-link-item:hover,
+.social-link-item:focus {
+  --color4: var(--acccent-color);
+  fill: var(--acccent-color);
+  border: 1px solid var(--acccent-color);
+}*/
+
 .social-link-links {
-  display: flex;
-  width: 44px;
-  height: 44px;
+}
+
+.social-icon {
 }
 
 /* Clients */
@@ -410,7 +426,6 @@ img {
 
 .clients-list {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .clients-item {
@@ -429,7 +444,11 @@ img {
   margin-right: 0;
 }
 
-.clients-link-links {
+.clients-item:hover,
+.clients-item:focus {
+  --color4: var(--acccent-color);
+  fill: var(--acccent-color);
+  border: 1px solid var(--acccent-color);
 }
 
 /* Button */
