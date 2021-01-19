@@ -28,7 +28,6 @@ body {
 
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-  outline: 1px solid #ff0000;
 }
 
 ul {
@@ -55,7 +54,7 @@ a {
   padding-right: 15px;
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: 1px solid tomato;
+  /*outline: 1px solid tomato;*/
 }
 
 img {
