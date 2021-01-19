@@ -85,60 +85,7 @@ img {
   line-height: 1.19;
 }
 
-/* Логотип Футер */
-
-.footer {
-  background-color: var(--primary-bg-hero-color);
-}
-
-.footer-logo {
-  margin-bottom: 20px;
-}
-
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.web-footer {
-  color: var(--acccent-color);
-}
-
-.studio-footer {
-  color: var(--primary-white-color);
-}
-
-.footer-auth-nav {
-}
-
-.footer .list {
-  padding: 0;
-}
-.footer-list-item {
-  margin-bottom: 9px;
-}
-
-.footer-list-item:last-child {
-  margin-bottom: 0;
-}
-
-.location.link {
-  color: var(--primary-white-color);
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  margin-bottom: 9px;
-}
-
-.footer-contacts.link {
-  color: rgba(255, 255, 255, 0.6);
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  margin-bottom: 9px;
-}
+/*  Футер */
 
 /* 
 
@@ -371,6 +318,7 @@ img {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
+  color: var(--primary-text-color);
 }
 
 .team-text {
@@ -380,14 +328,16 @@ img {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
+  color: var(--title-text-color);
 }
 
 .social-links {
+  padding: 0;
+  margin: 0;
+
   display: flex;
   border: none;
   justify-content: center;
-  padding: 0;
-  margin: 0;
 }
 
 .social-links-item {
@@ -455,6 +405,96 @@ img {
   --color4: var(--acccent-color);
   fill: var(--acccent-color);
   border: 1px solid var(--acccent-color);
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--primary-bg-hero-color);
+}
+
+.container .footer {
+  display: block;
+}
+
+.footer-list {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Логотип Футер */
+
+.footer-logo {
+  margin-right: 70px;
+}
+
+.footer-logo-nav {
+  margin-bottom: 20px;
+}
+
+.web-footer {
+  color: var(--acccent-color);
+}
+
+.studio-footer {
+  color: var(--primary-white-color);
+}
+
+.footer-contact-list {
+  padding: 0;
+}
+
+.footer-contact-list-item {
+  margin-bottom: 9px;
+}
+
+.footer-contact-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.location.link {
+  color: var(--primary-white-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 9px;
+}
+
+.footer-contacts.link {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 9px;
+}
+/* Социальние сети подвал*/
+
+.footer-social {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.footer-social-text {
+  padding: 0;
+  margin-bottom: 20px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 /* Button */
@@ -579,6 +619,10 @@ img {
 
 .card-project {
   background: #ffffff;
+}
+
+.card-project:hover,
+.card-project:focus {
 }
 
 .card-project-text {
